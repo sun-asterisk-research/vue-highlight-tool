@@ -1,3 +1,9 @@
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/sun-asterisk-research/vue-highlight-tool/master.svg?style=flat-square)](https://codecov.io/gh/sun-asterisk-research/vue-highlight-tool/)
+[![npm download](https://img.shields.io/npm/dt/vue-highlight-tool.svg?maxAge=30)](https://www.npmjs.com/package/vue-highlight-tool)
+[![npm download per month](https://img.shields.io/npm/dm/vue-highlight-tool.svg?)](https://www.npmjs.com/package/vue-highlight-tool)
+![GitHub open issues](https://img.shields.io/github/issues/sun-asterisk-research/vue-highlight-tool)
+[![npm version](https://img.shields.io/npm/v/vue-highlight-tool.svg)](https://www.npmjs.com/package/vue-highlight-tool)
+
 ## Live Demos
 
 https://vue-highlight-tool.herokuapp.com/
