@@ -1,6 +1,6 @@
 {
   "name": "vue-highlight-tool",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "Highlight text and show tools after select",
   "author": "quanghung97",

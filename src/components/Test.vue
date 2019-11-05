@@ -14,7 +14,11 @@
         </s></s></s>
     </div>
     <HighLightTool
-      @share="onShare"
+      :facebook="true"
+      :twitter="true"
+      @shareFacebook="onShareFacebook"
+      @shareLinkedIn="onShareLinkedIn"
+      @shareTwitter="onShareTwitter"
       @highlight="onHighlight"
     >
       <p>
@@ -48,11 +52,23 @@ export default {
     HighLightTool
   },
   methods: {
-    onShare (text) {
-      console.log('share:', text)
+    onShareFacebook (text) {
+      // eslint-disable-next-line
+      console.log('shareFacebook:', text)
+    },
+
+    onShareLinkedIn (text) {
+      // eslint-disable-next-line
+      console.log('shareLinkedIn:', text)
+    },
+
+    onShareTwitter (text) {
+      // eslint-disable-next-line
+      console.log('shareTwitter:', text)
     },
 
     onHighlight (text) {
+      // eslint-disable-next-line
       console.log('highlight:', text)
     }
   }
